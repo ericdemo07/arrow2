@@ -2,14 +2,19 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.arrow.mapper.SearchQueryDao">
- <!--   <resultMap type="com.arrow.model.SearchQueryResponseModel" id="SearchQueryResponse">
+    <resultMap type="com.arrow.model.SearchQueryResponseModel" id="SearchQueryResponse">
         <result property="id" column="product_id"/>
-        <result property="image" column="image"/>
-        <result property="description" column="description"/>
-        <result property="review" column="review"/>
-    </resultMap>-->
+        <result property="type" column="type"/>
+        <result property="brand" column="brand"/>
+        <result property="model" column="model"/>
+        <result property="serial" column="serial"/>
+    </resultMap>
 
-    <select id="fetchData" resultType="com.arrow.model.SearchQueryResponseModel">
+    <select id="getAllProduct" resultMap="SearchQueryResponse">
         SELECT * FROM product
+    </select>
+
+    <select id="getProductBySerialID" parameterType="String" resultMap="SearchQueryResponse">
+        SELECT * FROM product WHERE serial = #{serial}
     </select>
 </mapper>

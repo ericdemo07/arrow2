@@ -23,7 +23,8 @@ public class SearchQueryModel {
      */
     private String productSerialNumber;
 
-    public SearchQueryModel() {}
+    public SearchQueryModel() {
+    }
 
     public SearchQueryModel(String productType, String productBrand, String productModel, String productBarCode, String productSerialNumber) {
         if (NullEmptyCheck.check(productBarCode)) {

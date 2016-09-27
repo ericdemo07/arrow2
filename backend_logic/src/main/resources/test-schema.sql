@@ -1,1 +1,1 @@
-CREATE TABLE product (product_id INT PRIMARY KEY, image VARCHAR(255), description VARCHAR(255), review VARCHAR(255));
+CREATE TABLE product (product_id INT PRIMARY KEY auto_increment, type VARCHAR(25), brand VARCHAR(25), model VARCHAR(50), serial VARCHAR(50));

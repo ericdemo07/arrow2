@@ -9,12 +9,15 @@ import java.util.List;
 /**
  * Created by ayush.shukla on 9/26/2016.
  */
-public class SearchQueryDaoImpl
-{
+public class SearchQueryDaoImpl {
     @Autowired
     private SearchQueryDao mapper;
-    public List<SearchQueryResponseModel> fetchData()
-    {
-        return mapper.fetchData();
+
+    public List<SearchQueryResponseModel> getAllProduct() {
+        return mapper.getAllProduct();
+    }
+
+    public SearchQueryResponseModel getProductBySerialID(String serialID) {
+        return mapper.getProductBySerialID(serialID);
     }
 }

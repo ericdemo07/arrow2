@@ -12,14 +12,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
-public class SearchQueryController
-{
-    public static void main(String[] args)
-    {
+public class SearchQueryController {
+    public static void main(String[] args) {
         ApplicationContext cxt = new ClassPathXmlApplicationContext("spring-config.xml");
         SearchQueryDaoImpl service = (SearchQueryDaoImpl) cxt.getBean("service");
-        SearchQueryModel searchQueryModel = new SearchQueryModel(null, null, null, null, "2");
-        List<SearchQueryResponseModel> searchQueryResponseModelList = service.fetchData();
+
+        //returns count of product list
+        List<SearchQueryResponseModel> searchQueryResponseModelList = service.getAllProduct();
         System.out.println(searchQueryResponseModelList.size());
+
+        //returns product based on serialId passed
+        SearchQueryResponseModel searchQueryResponseModel = service.getProductBySerialID("LDV3558");
+        System.out.println(searchQueryResponseModel);
     }
 }
