@@ -20,6 +20,6 @@ public class SearchQueryController
         SearchQueryDaoImpl service = (SearchQueryDaoImpl) cxt.getBean("service");
         SearchQueryModel searchQueryModel = new SearchQueryModel(null, null, null, null, "2");
         List<SearchQueryResponseModel> searchQueryResponseModelList = service.fetchData();
-        System.out.println(searchQueryResponseModelList.get(0).getSearchQueryResponseModel().getDescription());
+        System.out.println(searchQueryResponseModelList.size());
     }
 }

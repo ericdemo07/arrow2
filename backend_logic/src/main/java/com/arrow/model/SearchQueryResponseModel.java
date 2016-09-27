@@ -12,12 +12,14 @@ public class SearchQueryResponseModel {
     public SearchQueryResponseModel() {
     }
 
+/*
     public SearchQueryResponseModel(int id, String image, String description, String review) {
         this.id = id;
         this.image = image;
         this.description = description;
         this.review = review;
     }
+*/
 
     public int getid() {
         return id;
@@ -51,7 +53,7 @@ public class SearchQueryResponseModel {
         this.review = review;
     }
 
-    public SearchQueryResponseModel getSearchQueryResponseModel() {
+ /*   public SearchQueryResponseModel getSearchQueryResponseModel() {
         SearchQueryResponseModel searchQueryResponseModel = new SearchQueryResponseModel();
         searchQueryResponseModel.id = this.id;
         searchQueryResponseModel.image = this.image;
@@ -59,5 +61,5 @@ public class SearchQueryResponseModel {
         searchQueryResponseModel.review = this.review;
 
         return searchQueryResponseModel;
-    }
+    }*/
 }
