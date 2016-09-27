@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arrow.iml" filepath="$PROJECT_DIR$/.idea/modules/arrow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_core_main.iml" group="backend_core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_core_test.iml" group="backend_core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic.iml" group="backend_logic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_main.iml" group="backend_logic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_test.iml" group="backend_logic" />
+    </modules>
+  </component>
+</project>
