@@ -21,3 +21,5 @@ include 'backend_logic'
 //if (GradleVersion.current() < GradleVersion.version(minimumGradleVersion)) {
   //throw new GradleException('Running with unsupported Gradle Version. Use Gradle Wrapper or with Gradle version >= ' + minimumGradleVersion)
 //}
+include 'cxf_service'
+

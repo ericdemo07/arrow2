@@ -1,0 +1,48 @@
+version 'unspecified'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+//cxf dependencies
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.1.7'
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http', version: '3.1.7'
+    providedCompile "javax.servlet:servlet-api:2.5"
+
+//rest dependency
+    compile group: 'asm', name: 'asm', version: '3.3.1'
+    compile group: 'com.sun.jersey', name: 'jersey-bundle', version: '1.19.2'
+    compile group: 'com.sun.jersey', name: 'jersey-core', version: '1.19.2'
+    compile group: 'com.sun.jersey', name: 'jersey-server', version: '1.19.2'
+    compile group: 'org.json', name: 'json', version: '20160810'
+    compile group: 'org.codehaus.jackson', name: 'jackson-jaxrs', version: '1.9.13'
+
+//spring-depensencies
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.3.RELEASE'
+    compile group: 'org.springframework', name: 'spring-core', version: '4.3.3.RELEASE'
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.3.3.RELEASE'
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.3.RELEASE'
+    compile group: 'org.springframework', name: 'spring-tx', version: '4.3.3.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '4.3.3.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+war {
+    baseName = 'demo'
+    version = '0.0.1-SNAPSHOT'
+    from 'src/rootContent' // adds a file-set to the root of the archive
+    //webInf { from 'src/additionalWebInf' } // adds a file-set to the WEB-INF dir.
+    //classpath fileTree('additionalLibs') // adds a file-set to the WEB-INF/lib dir.
+    //classpath configurations.moreLibs // adds a configuration to the WEB-INF/lib dir.
+    webXml = file('src/main/resources/web.xml') // copies a file to WEB-INF/web.xml
+    //webXml = file('src/main/resources/apache-cxf-services.xml') // copies a file to WEB-INF/web.xml
+}

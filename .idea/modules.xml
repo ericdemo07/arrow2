@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic.iml" group="backend_logic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_main.iml" group="backend_logic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic_test.iml" group="backend_logic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cxf_service/cxf_service.iml" filepath="$PROJECT_DIR$/.idea/modules/cxf_service/cxf_service.iml" group="cxf_service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cxf_service/cxf_service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cxf_service/cxf_service_main.iml" group="cxf_service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cxf_service/cxf_service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cxf_service/cxf_service_test.iml" group="cxf_service" />
     </modules>
   </component>
 </project>

@@ -21,6 +21,8 @@
     <bytecodeTargetLevel>
       <module name="backend_logic_main" target="1.8" />
       <module name="backend_logic_test" target="1.8" />
+      <module name="cxf_service_main" target="1.5" />
+      <module name="cxf_service_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
