@@ -13,12 +13,27 @@ import java.util.List;
 
 public class SearchQueryController
 {
-    public static List<ProductResponseModel> getAllProducts()
+    static ApplicationContext cxt;
+
+    public static void bootstrap()
     {
         BackendInitiatorSingleton backendInitiatorSingleton = new BackendInitiatorSingleton();
-        ApplicationContext cxt = backendInitiatorSingleton.initialize();
+        cxt = backendInitiatorSingleton.initialize();
+        System.out.println("CX : "+cxt);
+    }
+
+    public static List<ProductResponseModel> getAllProducts()
+    {
+        System.out.println("CXT : "+cxt);
         SearchQueryDaoImpl searchQueryDao = (SearchQueryDaoImpl) cxt.getBean("controller");
         List<ProductResponseModel> searchQueryResponseModelList = searchQueryDao.getAllProduct();
         return searchQueryResponseModelList;
+    }
+
+    public static ProductResponseModel getProductBySerialID(String serialID)
+    {
+        SearchQueryDaoImpl searchQueryDao = (SearchQueryDaoImpl) cxt.getBean("controller");
+        ProductResponseModel searchQueryResponseModel = searchQueryDao.getProductBySerialID(serialID);
+        return searchQueryResponseModel;
     }
 }

@@ -20,13 +20,13 @@ public class ProductServiceImpl implements IProductService
 {
     public SearchQueryResponseModelList getAllProducts()
     {
-        SearchQueryResponseModelList searchQueryResponseModelList = SearchQueryHelpers.productResponseHelpers(SearchQueryController.getAllProducts());
+        SearchQueryResponseModelList searchQueryResponseModelList = SearchQueryHelpers.getAllProducts(SearchQueryController.getAllProducts());
         return searchQueryResponseModelList;
     }
 
-    public ProductResponseModel getProductBySerialId(@PathParam("serial") int serialId)
+    public SearchQueryResponseModel getProductBySerialId(String serialId)
     {
-        ProductResponseModel searchQueryResponseModel = new ProductResponseModel(serialId, "P", "Q", "R", "S");
+        SearchQueryResponseModel searchQueryResponseModel = SearchQueryHelpers.getProductBySerialId(SearchQueryController.getProductBySerialID(serialId));
         return searchQueryResponseModel;
     }
 }

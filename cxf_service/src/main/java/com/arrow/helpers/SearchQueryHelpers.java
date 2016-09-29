@@ -12,12 +12,17 @@ import java.util.List;
  */
 public class SearchQueryHelpers
 {
-    public static SearchQueryResponseModelList productResponseHelpers(List<ProductResponseModel> productResponseModelList) {
+    public static SearchQueryResponseModelList getAllProducts(List<ProductResponseModel> productResponseModelList) {
         SearchQueryResponseModelList searchQueryResponseModelList = new SearchQueryResponseModelList();
         for (ProductResponseModel productResponseModel : productResponseModelList) {
             SearchQueryResponseModel searchQueryResponseModel = new SearchQueryResponseModel(productResponseModel.getId(), productResponseModel.getType(), productResponseModel.getBrand(), productResponseModel.getModel(), productResponseModel.getSerial());
             searchQueryResponseModelList.getResponseModelList().add(searchQueryResponseModel);
         }
         return searchQueryResponseModelList;
+    }
+
+    public static SearchQueryResponseModel getProductBySerialId(ProductResponseModel productResponseModel) {
+        SearchQueryResponseModel searchQueryResponseModel = new SearchQueryResponseModel(productResponseModel.getId(), productResponseModel.getType(), productResponseModel.getBrand(), productResponseModel.getModel(), productResponseModel.getSerial());
+        return searchQueryResponseModel;
     }
 }
