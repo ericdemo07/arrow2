@@ -180,74 +180,13 @@
     <favorites_list name="Arrow" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxf_service/src/main/resources/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="37" column="77" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/IProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchQueryResponseModelList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/SearchQueryResponseModelList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchQueryResponseModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/SearchQueryResponseModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -694,7 +633,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../../GitRepositories/incubator-geode" value="28016221109250" />
-        <entry key="$PROJECT_DIR$" value="5899862028064" />
+        <entry key="$PROJECT_DIR$" value="5900028651972" />
         <entry key="$PROJECT_DIR$/../ivh_hacker/hadoop" value="1474368540358" />
         <entry key="$PROJECT_DIR$/../rpg-core" value="1459916770090" />
         <entry key="$PROJECT_DIR$/../../STS_Workspace_1/PerkApp" value="1453964060969" />
@@ -862,21 +801,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/core/ArrowException.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/service/SearchQueryCOntroller.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/util/NullCheck.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/dto/SearchQueryResponse.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/util/NullEmptyCheck.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/dto/SearchQueryDTO.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/dao/impl/SearchQuery.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/dao/SearchQuery.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQuery.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQueryResponse.java" />
-        <option value="$PROJECT_DIR$/backend_core/settings.gradle" />
-        <option value="$PROJECT_DIR$/backend_core/gradle.properties" />
-        <option value="$PROJECT_DIR$/backend_logic/gradle.properties" />
-        <option value="$PROJECT_DIR$/backend_core/build.gradle" />
-        <option value="$PROJECT_DIR$/backend_core/src/main/resources/test-schema.xml" />
         <option value="$PROJECT_DIR$/backend_core/src/main/resources/test-schema.sql" />
         <option value="$PROJECT_DIR$/backend_core/src/main/resources/test-data.sql" />
         <option value="$PROJECT_DIR$/backend_core/src/main/resources/ArrowMapper.xml" />
@@ -891,28 +815,43 @@
         <option value="$PROJECT_DIR$/backend_logic/src/main/resources/SearchQueryDao.xml" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/resources/com.arrow.mapper/SearchQueryDao.xml" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/resources/spring-config.xml" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/util/ArrowException.java" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQueryModel.java" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/resources/test-data.sql" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/resources/test-schema.sql" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/resources/com/arrow/mapper/SearchQueryDao.xml" />
         <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/impl/SearchQueryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/SearchQueryDao.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/service/SearchQueryController.java" />
-        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQueryResponseModel.java" />
-        <option value="$PROJECT_DIR$/backend_logic/build.gradle" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/ProductService.java" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/resources/src/main/webapp/WEB-INF/apache-cxf-services.xml" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/resources/src/main/webapp/WEB-INF/conf/rest-context.xml" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/resources/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/cxf_service/src/main/resources/apache-cxf-services.xml" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/resources/web.xml" />
-        <option value="$PROJECT_DIR$/cxf_service/build.gradle" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/SearchQueryResponseModel.java" />
-        <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/IProductService.java" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/SearchQueryResponseModelList.java" />
         <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/service/ProductController.java" />
+        <option value="$PROJECT_DIR$/backend_logic/build.gradle" />
+        <option value="$PROJECT_DIR$/cxf_service/settings.gradle" />
+        <option value="$PROJECT_DIR$/cxf_service/build.gradle" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQueryResponseModel.java" />
+        <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/model/SearchQueryResponseModel.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/service/SearchQueryController.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/resources/spring-config.xml" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/SearchQueryDao.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/SystemFaliure.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/Initiator.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/BackendInitiator.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/BackendInitiatorSingleton.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/helpers/SearchProductHelpers.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/ProductInputModel.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/ProductRequestModel.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/helpers/SearchQueryHelpers.java" />
+        <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/helpers/SearchQueryHelpers.java" />
+        <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/model/SearchQueryResponseModelList.java" />
+        <option value="$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/controller/SearchQueryController.java" />
+        <option value="$PROJECT_DIR$/cxf_service/src/main/resources/apache-cxf-services.xml" />
       </list>
     </option>
   </component>
@@ -1001,16 +940,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cxf_service" />
+              <option name="myItemId" value="backend_logic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1023,7 +954,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cxf_service" />
+              <option name="myItemId" value="backend_logic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1034,14 +965,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1049,7 +972,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1071,18 +994,18 @@
       <recent name="com.arrow.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\E_Drive\IntelliJRepo\Arrow\cxf_service" />
       <recent name="C:\E_Drive\IntelliJRepo\Arrow\cxf_service\src\main\resources" />
       <recent name="C:\E_Drive\IntelliJRepo\Arrow\src\main\resources" />
       <recent name="C:\E_Drive\IntelliJRepo\Arrow\backend_logic\src\main\resources" />
       <recent name="C:\E_Drive\IntelliJRepo\Arrow\backend_logic" />
-      <recent name="C:\E_Drive\IntelliJRepo\Arrow\backend_core" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Arrow [clean]">
-    <configuration default="false" name="Arrow:cxf_service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="Arrow [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/cxf_service" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1097,7 +1020,7 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="Arrow:cxf_service [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="Arrow:cxf_service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/cxf_service" />
@@ -1108,7 +1031,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="war" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1133,7 +1056,7 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="Arrow:backend_logic [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="Arrow:backend_logic [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend_logic" />
@@ -1144,17 +1067,17 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="javadoc" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="Arrow [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="Arrow:cxf_service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/cxf_service" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -1389,19 +1312,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [clean]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [war]" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.Arrow [clean]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [build]" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.Arrow:backend_logic [clean]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.Arrow:backend_logic [javadoc]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.Arrow [clean]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.Arrow:backend_logic [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [clean]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.Arrow [clean]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.Arrow:backend_logic [javadoc]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.Arrow:backend_logic [build]" />
         <item index="2" class="java.lang.String" itemvalue="Gradle.Arrow:backend_logic [clean]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [war]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [clean]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.Arrow:cxf_service [build]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.Arrow [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -1422,28 +1345,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8087248" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17114094" sideWeight="0.5060514" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.12919463" sideWeight="0.11043873" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16946308" sideWeight="0.49394855" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25460637" sideWeight="0.8895613" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22995462" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22919819" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2965204" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32663316" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22919819" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24962178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.025167786" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8087248" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1457,16 +1380,16 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.12919463" sideWeight="0.11043873" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17114094" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07035176" sideWeight="0.8895613" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22995462" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32663316" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22919819" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24962178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1510,71 +1433,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.IdeaIC2016/system/extResources/5fcb85ff_spring-jdbc.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="205" column="12" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.3.RELEASE/56718cbc3332feeacfc988358d4064510a13a06d/spring-context-4.3.3.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Tools/Java_Installation/jdk1.8.0_66/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.3.RELEASE/8c7e14b6a9c4d41a5b22c008acb4931144d33785/spring-beans-4.3.3.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.0/2022be53ff19021a08c89fe58d52fdb28c654e75/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="84" column="36" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.0/2022be53ff19021a08c89fe58d52fdb28c654e75/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/mapper/MapperFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="743" column="17" selection-start-line="743" selection-start-column="17" selection-end-line="743" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1647,52 +1505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/impl/SearchQueryDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/SearchQueryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/service/SearchQueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQueryResponseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1726,61 +1542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/resources/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="23" column="98" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/resources/com/arrow/mapper/SearchQueryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/SearchQueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/util/NullEmptyCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cxf_service/build/classes/main/com/arrow/service/ProductServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/resources/apache-cxf-services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1797,22 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxf_service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/resources/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="37" column="77" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -1843,43 +1592,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/SearchQueryResponseModel.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-bundle/1.19.2/8f4b35fcc2ea6b30f21f9ca384ee9f275ed3f785/jersey-bundle-1.19.2-sources.jar!/javax/ws/rs/core/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/resources/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="37" column="77" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/resources/com/arrow/mapper/SearchQueryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/util/NullEmptyCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/util/s.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/BackendInitiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/s.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/SystemFaliure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/BackendInitiatorSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/impl/SearchQueryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/resources/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="23" column="98" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/mapper/SearchQueryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/ProductRequestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/model/ProductResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="94" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/model/SearchQueryResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/src/main/java/com/arrow/controller/SearchQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/resources/apache-cxf-services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend_logic/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/model/SearchQueryResponseModelList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/helpers/SearchQueryHelpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/IProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/SearchQueryResponseModelList.java">
+    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxf_service/src/main/java/com/arrow/service/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="433">
+          <caret line="30" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    compile project(':backend_logic')
 
 //cxf dependencies
     compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.1.7'

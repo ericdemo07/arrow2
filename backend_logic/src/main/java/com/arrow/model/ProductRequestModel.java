@@ -5,7 +5,7 @@ import com.arrow.util.NullEmptyCheck;
 /**
  * Created by ayush.shukla on 9/26/2016.
  */
-public class SearchQueryModel {
+public class ProductRequestModel {
     /**
      * getting product by selecting
      */
@@ -23,10 +23,10 @@ public class SearchQueryModel {
      */
     private String productSerialNumber;
 
-    public SearchQueryModel() {
+    public ProductRequestModel() {
     }
 
-    public SearchQueryModel(String productType, String productBrand, String productModel, String productBarCode, String productSerialNumber) {
+    public ProductRequestModel(String productType, String productBrand, String productModel, String productBarCode, String productSerialNumber) {
         if (NullEmptyCheck.check(productBarCode)) {
             this.productBarCode = productBarCode;
         } else if (NullEmptyCheck.check(productSerialNumber)) {

@@ -1,4 +1,4 @@
-package com.arrow.service;
+package com.arrow.model;
 
 import java.util.ArrayList;
 import java.util.List;

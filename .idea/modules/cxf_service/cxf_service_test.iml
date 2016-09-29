@@ -10,6 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="cxf_service_main" />
+    <orderEntry type="module" module-name="backend_logic_main" />
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-rt-transports-http:3.1.7" level="project" />
     <orderEntry type="library" name="Gradle: asm:asm:3.3.1" level="project" />
@@ -26,6 +27,9 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.mybatis:mybatis:3.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.mybatis:mybatis-spring:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.192" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.cxf:cxf-core:3.1.7" level="project" />
     <orderEntry type="library" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.2" level="project" />

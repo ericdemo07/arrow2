@@ -1,4 +1,4 @@
-package com.arrow.service;
+package com.arrow.model;
 
 /**
  * Created by ayush.shukla on 9/26/2016.
@@ -12,7 +12,7 @@ public class SearchQueryResponseModel {
     private String model;
     private String serial;
 
-    public SearchQueryResponseModel(int id, String type, String brand, String model, String serial) {
+    public SearchQueryResponseModel(Integer id, String type, String brand, String model, String serial) {
         this.id = id;
         this.type = type;
         this.brand = brand;

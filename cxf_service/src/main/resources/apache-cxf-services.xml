@@ -16,7 +16,7 @@
     <!-- CXFServlet configured in web.xml sends requests here -->
     <jaxrs:server id="restContainer" address="/">
         <jaxrs:serviceBeans>
-            <ref bean="playerService" />
+            <ref bean="productservice" />
         </jaxrs:serviceBeans>
 
         <jaxrs:extensionMappings>

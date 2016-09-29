@@ -1,7 +1,7 @@
 package com.arrow.mapper.impl;
 
 import com.arrow.mapper.SearchQueryDao;
-import com.arrow.model.SearchQueryResponseModel;
+import com.arrow.model.ProductResponseModel;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -13,11 +13,11 @@ public class SearchQueryDaoImpl {
     @Autowired
     private SearchQueryDao mapper;
 
-    public List<SearchQueryResponseModel> getAllProduct() {
+    public List<ProductResponseModel> getAllProduct() {
         return mapper.getAllProduct();
     }
 
-    public SearchQueryResponseModel getProductBySerialID(String serialID) {
+    public ProductResponseModel getProductBySerialID(String serialID) {
         return mapper.getProductBySerialID(serialID);
     }
 }

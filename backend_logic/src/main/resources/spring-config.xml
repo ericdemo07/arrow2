@@ -34,5 +34,5 @@
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 
-    <bean id="service" class="com.arrow.mapper.impl.SearchQueryDaoImpl"/>
+    <bean id="controller" class="com.arrow.mapper.impl.SearchQueryDaoImpl"/>
 </beans>
