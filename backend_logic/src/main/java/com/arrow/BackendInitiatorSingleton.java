@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class BackendInitiatorSingleton {
     private static BackendInitiatorSingleton instance;
 
-    volatile  boolean isLoad;
+    volatile boolean isLoad;
 
     public BackendInitiatorSingleton() {
     }

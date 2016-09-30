@@ -4,7 +4,6 @@ import com.arrow.model.ProductResponseModel;
 import com.arrow.model.SearchQueryResponseModel;
 import com.arrow.model.SearchQueryResponseModelList;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

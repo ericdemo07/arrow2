@@ -8,13 +8,13 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-/**Service for bootstraping application
+/**
+ * Service for bootstraping application
  * Created by ayush.shukla on 9/29/2016.
  */
 
 @Path("/bootstrap")
-public interface IBootstrap
-{
+public interface IBootstrap {
     @GET
     @Path("bootstrap")
     @Consumes({MediaType.APPLICATION_FORM_URLENCODED})

@@ -3,6 +3,7 @@ package com.arrow.service;
 
 import com.arrow.model.SearchQueryResponseModel;
 import com.arrow.model.SearchQueryResponseModelList;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 

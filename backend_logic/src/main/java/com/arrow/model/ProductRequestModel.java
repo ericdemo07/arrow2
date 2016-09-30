@@ -18,7 +18,7 @@ public class ProductRequestModel {
      */
     private String productBarCode;
 
-    /**
+    /**s
      * getting product by entering
      */
     private String productSerialNumber;

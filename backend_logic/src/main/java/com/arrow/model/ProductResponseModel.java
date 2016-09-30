@@ -10,8 +10,8 @@ public class ProductResponseModel {
     private String model;
     private String serial;
 
-
-
+    public ProductResponseModel() {
+    }
 
     public ProductResponseModel(Integer id, String type, String brand, String model, String serial) {
         this.id = id;

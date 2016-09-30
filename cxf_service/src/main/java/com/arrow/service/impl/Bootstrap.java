@@ -10,10 +10,8 @@ import org.springframework.stereotype.Service;
  */
 
 @Service("bootstrap")
-public class Bootstrap implements IBootstrap
-{
-    public BootstrapModel appBootstrap()
-    {
+public class Bootstrap implements IBootstrap {
+    public BootstrapModel appBootstrap() {
         BootstrapModel bootstrapModel = new BootstrapModel();
         bootstrapModel.setStatus("success");
         SearchQueryController.bootstrap();
