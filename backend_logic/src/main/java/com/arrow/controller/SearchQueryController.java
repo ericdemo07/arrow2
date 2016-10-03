@@ -43,6 +43,7 @@ public class SearchQueryController {
             searchQueryResponseModelListAsMap.put("brand", productResponseModel.getBrand());
             searchQueryResponseModelListAsMap.put("model", productResponseModel.getModel());
             searchQueryResponseModelListAsMap.put("serial", productResponseModel.getSerial());
+            searchQueryResponseModelListAsMap.put("price", productResponseModel.getPrice().toString());
 
             jedis.hmset("Serial:" + productResponseModel.getSerial(), searchQueryResponseModelListAsMap);
         }
@@ -53,7 +54,7 @@ public class SearchQueryController {
         List<ProductResponseModel> searchQueryResponseModelList = new ArrayList<>();
         for (String s : jedis.keys("Serial:*")) {
             ObjectMapper mapper = new ObjectMapper();
-                ProductResponseModel productResponseModel = mapper.convertValue(jedis.hgetAll(s), ProductResponseModel.class);
+            ProductResponseModel productResponseModel = mapper.convertValue(jedis.hgetAll(s), ProductResponseModel.class);
             searchQueryResponseModelList.add(productResponseModel);
         }
         return searchQueryResponseModelList;
@@ -62,7 +63,7 @@ public class SearchQueryController {
     public static ProductResponseModel getProductBySerialID(String serialID) {
         //SearchQueryDaoImpl searchQueryDao = (SearchQueryDaoImpl) cxt.getBean("controller");
         ObjectMapper mapper = new ObjectMapper();
-        ProductResponseModel searchQueryResponseModel = mapper.convertValue(jedis.hgetAll("User:" + serialID), ProductResponseModel.class);
+        ProductResponseModel searchQueryResponseModel = mapper.convertValue(jedis.hgetAll("Serial:" + serialID), ProductResponseModel.class);
         return searchQueryResponseModel;
     }
 }

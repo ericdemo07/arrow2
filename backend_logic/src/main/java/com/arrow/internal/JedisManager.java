@@ -15,7 +15,6 @@ public class JedisManager {
         if (_jedisinstance == null) {
             _jedisinstance = new Jedis("localhost");
         }
-        System.out.println("Jedis: :" + _jedisinstance);
         return _jedisinstance;
     }
 }

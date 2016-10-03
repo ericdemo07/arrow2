@@ -15,7 +15,6 @@ public class RefreshCurrency {
         String currencyLayerUrl = "http://www.apilayer.net/api/live?access_key=69663146c1797e1d64ff09de94f0bca0";
         ResponseEntity responseEntity = restTemplate.getForEntity(currencyLayerUrl, CurrencyLayerResponse.class);
         CurrencyLayerResponse currencyLayerResponse = (CurrencyLayerResponse) responseEntity.getBody();
-
         CurrencyModel currencyModel = new CurrencyModel();
         new CurrencyObserver(currencyModel);
         currencyModel.setRate(currencyLayerResponse.getQuotes());

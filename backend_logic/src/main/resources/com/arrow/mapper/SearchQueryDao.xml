@@ -8,6 +8,7 @@
         <result property="brand" column="brand"/>
         <result property="model" column="model"/>
         <result property="serial" column="serial"/>
+        <result property="price" column="price"/>
     </resultMap>
 
     <select id="getAllProduct" resultMap="SearchQueryResponse">

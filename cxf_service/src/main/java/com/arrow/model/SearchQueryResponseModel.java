@@ -1,5 +1,7 @@
 package com.arrow.model;
 
+import java.math.BigDecimal;
+
 /**
  * Created by ayush.shukla on 9/26/2016.
  */
@@ -11,13 +13,15 @@ public class SearchQueryResponseModel {
     private String brand;
     private String model;
     private String serial;
+    private BigDecimal price;
 
-    public SearchQueryResponseModel(Integer id, String type, String brand, String model, String serial) {
+    public SearchQueryResponseModel(Integer id, String type, String brand, String model, String serial, BigDecimal price) {
         this.id = id;
         this.type = type;
         this.brand = brand;
         this.model = model;
         this.serial = serial;
+        this.price = price;
     }
 
     public int getId() {
@@ -38,5 +42,9 @@ public class SearchQueryResponseModel {
 
     public String getSerial() {
         return serial;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
     }
 }
