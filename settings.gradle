@@ -3,10 +3,11 @@
  *
  */
 rootProject.name = 'arrow'
-
+include 'arrow_config'
 include 'backend_logic'
 include 'cxf_service'
 
 //if (GradleVersion.current() < GradleVersion.version(minimumGradleVersion)) {
 //throw new GradleException('Running with unsupported Gradle Version. Use Gradle Wrapper or with Gradle version >= ' + minimumGradleVersion)
 //}
+

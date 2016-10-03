@@ -6,6 +6,8 @@ package com.arrow.controller;
  */
 
 import com.arrow.BackendInitiatorSingleton;
+import com.arrow.internal.JedisManager;
+import com.arrow.internal.currencyratemanager.RefreshCurrency;
 import com.arrow.mapper.impl.SearchQueryDaoImpl;
 import com.arrow.model.ProductResponseModel;
 import org.codehaus.jackson.map.ObjectMapper;
@@ -19,8 +21,8 @@ import java.util.Map;
 
 public class SearchQueryController {
     static ApplicationContext cxt;
+    static JedisManager jedisManager;
     static Jedis jedis;
-
     //for backend_logic test
     //public static void main(String... args) {
     //    SearchQueryController.bootstrap();
@@ -28,8 +30,9 @@ public class SearchQueryController {
 
     public static void bootstrap() {
         BackendInitiatorSingleton backendInitiatorSingleton = new BackendInitiatorSingleton();
+        RefreshCurrency.refresh();
         cxt = backendInitiatorSingleton.initialize();
-        jedis = new Jedis("localhost");
+        jedis = jedisManager.getinstance();
         System.out.println("Server is running: " + jedis.ping());
         Map<String, String> searchQueryResponseModelListAsMap = new HashMap<String, String>();
         SearchQueryDaoImpl searchQueryDao = (SearchQueryDaoImpl) cxt.getBean("controller");
@@ -50,7 +53,7 @@ public class SearchQueryController {
         List<ProductResponseModel> searchQueryResponseModelList = new ArrayList<>();
         for (String s : jedis.keys("Serial:*")) {
             ObjectMapper mapper = new ObjectMapper();
-            ProductResponseModel productResponseModel = mapper.convertValue(jedis.hgetAll(s), ProductResponseModel.class);
+                ProductResponseModel productResponseModel = mapper.convertValue(jedis.hgetAll(s), ProductResponseModel.class);
             searchQueryResponseModelList.add(productResponseModel);
         }
         return searchQueryResponseModelList;

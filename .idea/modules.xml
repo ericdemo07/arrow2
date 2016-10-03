@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/arrow.iml" filepath="$PROJECT_DIR$/.idea/modules/arrow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arrow_config/arrow_config.iml" filepath="$PROJECT_DIR$/.idea/modules/arrow_config/arrow_config.iml" group="arrow_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arrow_config/arrow_config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/arrow_config/arrow_config_main.iml" group="arrow_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arrow_config/arrow_config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/arrow_config/arrow_config_test.iml" group="arrow_config" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_core_main.iml" group="backend_core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_core_test.iml" group="backend_core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_logic/backend_logic.iml" group="backend_logic" />
