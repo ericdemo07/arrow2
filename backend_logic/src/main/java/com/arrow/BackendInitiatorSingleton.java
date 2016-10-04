@@ -13,10 +13,10 @@ public class BackendInitiatorSingleton {
 
     volatile boolean isLoad;
 
-    public BackendInitiatorSingleton() {
+    private BackendInitiatorSingleton() {
     }
 
-    public static synchronized BackendInitiatorSingleton getInstance() {
+    public static BackendInitiatorSingleton getInstance() {
         if (instance == null) {
             instance = new BackendInitiatorSingleton();
         }
