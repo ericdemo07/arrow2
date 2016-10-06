@@ -1,6 +1,6 @@
 package com.arrow.service.impl;
 
-import com.arrow.controller.SearchQueryController;
+import com.arrow.controller.BootstrapController;
 import com.arrow.model.BootstrapModel;
 import com.arrow.service.IBootstrap;
 import org.springframework.stereotype.Service;
@@ -10,11 +10,11 @@ import org.springframework.stereotype.Service;
  */
 
 @Service("bootstrap")
-public class Bootstrap implements IBootstrap {
+public class BootstrapImpl implements IBootstrap {
     public BootstrapModel appBootstrap() {
         BootstrapModel bootstrapModel = new BootstrapModel();
         bootstrapModel.setStatus("success");
-        SearchQueryController.bootstrap();
+        BootstrapController.bootstrap();
         return bootstrapModel;
     }
 }

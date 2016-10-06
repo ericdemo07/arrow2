@@ -62,3 +62,14 @@ INSERT INTO product (type, brand, model, serial, price) VALUES ('Portable Speake
 INSERT INTO product (type, brand, model, serial, price) VALUES ('Portable Speaker', 'Logitech', 'X50', 'PSL50', 19.58)
 INSERT INTO product (type, brand, model, serial, price) VALUES ('Portable Speaker', 'Logitech', 'X100', 'PSL100', 28.54)
 INSERT INTO product (type, brand, model, serial, price) VALUES ('Portable Speaker', 'Logitech', 'X300', 'PSL300', 45.08)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--endusers
+INSERT INTO enduser (username, password, flag_enabled) VALUES ('ericdemo07', 'DOOM', true)
+INSERT INTO enduser (username, password, flag_enabled) VALUES ('ayush.abcd', 'DOOM', true)
+INSERT INTO enduser (username, password, flag_enabled) VALUES ('temp', 'DOOM', true)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--roles and responsibilities
+INSERT INTO roles (username, role) VALUES ('ericdemo07', 3)
+INSERT INTO roles (username, role) VALUES ('ayush.abcd', 2)

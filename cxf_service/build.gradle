@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     compile project(':backend_logic')
+    compile project(':arrow_config')
 
 //cxf dependencies
     compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.1.7'
