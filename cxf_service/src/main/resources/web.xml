@@ -3,10 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 	        http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-            metadata-complete="true">
+         metadata-complete="true">
 
-    <display-name>RestDemo</display-name>
-    <description>RestDemo</description>
+    <display-name>Arrow2</display-name>
+    <description>Arrow2</description>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>

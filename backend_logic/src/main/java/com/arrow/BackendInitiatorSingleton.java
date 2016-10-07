@@ -10,22 +10,23 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class BackendInitiatorSingleton {
     private static BackendInitiatorSingleton instance;
-
+    private static ApplicationContext cxt;
     volatile boolean isLoad;
 
     private BackendInitiatorSingleton() {
     }
 
-    public static BackendInitiatorSingleton getInstance() {
+    public static ApplicationContext getInstance() {
         if (instance == null) {
             instance = new BackendInitiatorSingleton();
+            cxt = new ClassPathXmlApplicationContext("spring-config.xml");
         }
-        return instance;
+        return cxt;
     }
 
     public ApplicationContext initialize() {
 
-        ApplicationContext cxt = new ClassPathXmlApplicationContext("spring-config.xml");
+
         return cxt;
     }
 }

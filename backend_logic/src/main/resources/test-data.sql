@@ -71,5 +71,8 @@ INSERT INTO enduser (username, password, flag_enabled) VALUES ('temp', 'DOOM', t
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --roles and responsibilities
+--role 3 for Admin
+--role 2 for user
+
 INSERT INTO roles (username, role) VALUES ('ericdemo07', 3)
 INSERT INTO roles (username, role) VALUES ('ayush.abcd', 2)

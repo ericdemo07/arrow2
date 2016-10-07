@@ -40,8 +40,8 @@ public class BootstrapController {
         //thread-2
         Thread createCache = new Thread() {
             public void run() {
-                BackendInitiatorSingleton backendInitiatorSingleton = BackendInitiatorSingleton.getInstance();
-                cxt = backendInitiatorSingleton.initialize();
+                //BackendInitiatorSingleton backendInitiatorSingleton = BackendInitiatorSingleton.getInstance();
+                cxt = BackendInitiatorSingleton.getInstance();
                 jedis = jedisManager.getinstance();
                 System.out.println("Server is running: " + jedis.ping());
                 Map<String, String> searchQueryResponseModelListAsMap = new HashMap<String, String>();

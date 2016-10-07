@@ -14,18 +14,6 @@
         FROM roles
         INNER JOIN enduser
         ON enduser.username = roles.username
-        WHERE enduser.username = #{username} and enduser.password = #{password}
+        WHERE enduser.username = #{username} and enduser.password = #{password} and enduser.flag_enabled = 'true'
     </select>
-
-    <!--    <insert id="checkUserAuthorization">
-         &lt;!&ndash;   <selectKey keyProperty="flagEnabled" resultType="Boolean" order="BEFORE">
-                SELECT flag_enabled FROM enduser WHERE username = #{username} and password = #{password}
-            </selectKey>
-            <if test="flagEnabled != null">
-                SELECT role FROM roles WHERE username = #{username}
-           </if>&ndash;&gt;
-            <selectKey keyProperty="role" resultType="int" order="AFTER">
-                SELECT role FROM roles WHERE username = #{username}
-            </selectKey>
-        </insert>-->
 </mapper>
