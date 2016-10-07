@@ -10,5 +10,5 @@ public class LoginHelpers {
     public static LoginRequestModel authenticateUser(LoginRequestServiceModel loginRequestServiceModel) {
         LoginRequestModel loginRequestModel = new LoginRequestModel(loginRequestServiceModel.getUsername(), loginRequestServiceModel.getPassword());
         return loginRequestModel;
-    } 
+    }
 }
