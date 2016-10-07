@@ -65,14 +65,22 @@ INSERT INTO product (type, brand, model, serial, price) VALUES ('Portable Speake
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --endusers
-INSERT INTO enduser (username, password, flag_enabled) VALUES ('ericdemo07', 'DOOM', true)
+INSERT INTO enduser (username, password, flag_enabled) VALUES ('ericdemo076', 'DOOM', true)
 INSERT INTO enduser (username, password, flag_enabled) VALUES ('ayush.abcd', 'DOOM', true)
 INSERT INTO enduser (username, password, flag_enabled) VALUES ('temp', 'DOOM', true)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --roles and responsibilities
---role 3 for Admin
---role 2 for user
+--role 3 for User
+--role 2 for editor/writer
+--role 0 for Admin
+INSERT INTO roles (username, role) VALUES ('ericdemo076', 0)
+INSERT INTO roles (username, role) VALUES ('ericdemo07', 2)
+INSERT INTO roles (username, role) VALUES ('ayush.abcd', 3)
 
-INSERT INTO roles (username, role) VALUES ('ericdemo07', 3)
-INSERT INTO roles (username, role) VALUES ('ayush.abcd', 2)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--role to path
+INSERT INTO roletopath (role, path) VALUES (0, 'loginservice')
+INSERT INTO roletopath (role, path) VALUES (0, 'productservice')
+INSERT INTO roletopath (role, path) VALUES (3, 'productservice')
+

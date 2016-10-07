@@ -19,12 +19,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="arrow_config_main" target="1.5" />
-      <module name="arrow_config_test" target="1.5" />
+      <module name="arrow_config_main" target="1.8" />
+      <module name="arrow_config_test" target="1.8" />
       <module name="backend_logic_main" target="1.8" />
       <module name="backend_logic_test" target="1.8" />
-      <module name="cxf_service_main" target="1.5" />
-      <module name="cxf_service_test" target="1.5" />
+      <module name="cxf_service_main" target="1.8" />
+      <module name="cxf_service_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

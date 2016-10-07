@@ -4,6 +4,7 @@ import com.arrow.BackendInitiatorSingleton;
 import com.arrow.internal.JedisManager;
 import com.arrow.mapper.impl.LoginServiceDaoImpl;
 import com.arrow.model.LoginRequestModel;
+import com.arrow.util.ArrowCommonUtils;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.springframework.context.ApplicationContext;
@@ -21,16 +22,13 @@ public class LoginController {
 
     public static String checkUserLogin(LoginRequestModel loginRequestModel) {
         if (!jedis.exists("Session:" + loginRequestModel.getUsername())) {
-            //LoginRequestModel loginRequestModel = new LoginRequestModel("ericdemo07", "DOOM");
             cxt = BackendInitiatorSingleton.getInstance();
             LoginServiceDaoImpl loginServiceDaoImpl = (LoginServiceDaoImpl) cxt.getBean("controller");
-            String role = loginServiceDaoImpl.checkUserAuthorization(loginRequestModel);
-            if (role != null) {
-                //TODO: string to be saved as integer
-                //TODO: to be created a seperate server for token generation in future
-                //TODO: can be used JWT
+            String listOfRolesAsString = ArrowCommonUtils.collectionAsString(loginServiceDaoImpl.checkUserAuthorization(loginRequestModel));
+            if (ArrowCommonUtils.nullEmptyCheck(listOfRolesAsString)) {
                 Map<String, String> endUserSessionObject = new HashMap<>();
-                endUserSessionObject.put("role", role);
+                System.out.println("Role : "+listOfRolesAsString);
+                endUserSessionObject.put("role", listOfRolesAsString);
                 DateTime sessionEndTime = new DateTime(DateTimeZone.UTC).plusHours(2);
                 endUserSessionObject.put("logouttime", sessionEndTime.toString());
                 jedis.hmset("Session:" + loginRequestModel.getUsername(), endUserSessionObject);
@@ -41,5 +39,8 @@ public class LoginController {
         } else {
             return "user is already loggedIn";
         }
+    }
+    public static void main(String... args) {
+        System.out.println(LoginController.checkUserLogin(new LoginRequestModel("ericdemo076", "DOOM")));
     }
 }

@@ -6,4 +6,7 @@ CREATE TABLE IF NOT EXISTS product (product_id INT PRIMARY KEY auto_increment, t
 CREATE TABLE IF NOT EXISTS enduser (username VARCHAR(25) PRIMARY KEY, password VARCHAR(25), flag_enabled BOOLEAN);
 
 --roles and responsibilities
-CREATE TABLE IF NOT EXISTS roles (username VARCHAR(25), role INT);
+CREATE TABLE IF NOT EXISTS roles (username VARCHAR(25), role INT, PRIMARY KEY(username,role));
+
+--roles to path
+CREATE TABLE IF NOT EXISTS roletopath (role INT, path VARCHAR(25), PRIMARY KEY(role,path));

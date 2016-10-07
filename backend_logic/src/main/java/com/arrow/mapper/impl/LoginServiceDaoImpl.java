@@ -4,6 +4,8 @@ import com.arrow.mapper.LoginServiceDao;
 import com.arrow.model.LoginRequestModel;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 /**
  * Created by ayush.shukla on 10/6/2016.
  */
@@ -12,7 +14,7 @@ public class LoginServiceDaoImpl implements LoginServiceDao {
     LoginServiceDao mapper;
 
     @Override
-    public String checkUserAuthorization(LoginRequestModel loginRequestModel) {
+    public List<String> checkUserAuthorization(LoginRequestModel loginRequestModel) {
         return mapper.checkUserAuthorization(loginRequestModel);
     }
 }

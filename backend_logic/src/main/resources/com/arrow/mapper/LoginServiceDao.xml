@@ -10,6 +10,16 @@
     </resultMap>
 
     <select id="checkUserAuthorization" resultType="String">
+        SELECT roletopath.path
+        FROM roletopath roletopath
+        INNER JOIN roles roles
+        ON roles.role = roletopath.role
+        INNER JOIN enduser enduser
+        ON enduser.username = roles.username
+        WHERE enduser.username = #{username} and enduser.password = #{password} and enduser.flag_enabled = 'true'
+    </select>
+
+    <select id="getPathAsListByRoleId" resultType="String">
         SELECT roles.role
         FROM roles
         INNER JOIN enduser

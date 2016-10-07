@@ -1,6 +1,6 @@
 package com.arrow.model;
 
-import com.arrow.util.NullEmptyCheck;
+import com.arrow.util.ArrowCommonUtils;
 
 /**
  * Created by ayush.shukla on 9/26/2016.
@@ -28,9 +28,9 @@ public class ProductRequestModel {
     }
 
     public ProductRequestModel(String productType, String productBrand, String productModel, String productBarCode, String productSerialNumber) {
-        if (NullEmptyCheck.check(productBarCode)) {
+        if (ArrowCommonUtils.nullEmptyCheck(productBarCode)) {
             this.productBarCode = productBarCode;
-        } else if (NullEmptyCheck.check(productSerialNumber)) {
+        } else if (ArrowCommonUtils.nullEmptyCheck(productSerialNumber)) {
             this.productSerialNumber = productSerialNumber;
         } else {
             this.productType = productType;
@@ -81,10 +81,10 @@ public class ProductRequestModel {
 
     @Override
     public String toString() {
-        if (NullEmptyCheck.check(productBarCode)) {
+        if (ArrowCommonUtils.nullEmptyCheck(productBarCode)) {
             return "SearchQuery{" +
                     ", productBarCode='" + productBarCode + '}';
-        } else if (NullEmptyCheck.check(productSerialNumber)) {
+        } else if (ArrowCommonUtils.nullEmptyCheck(productSerialNumber)) {
             return "SearchQuery{" +
                     ", productSerialNumber='" + productSerialNumber + '}';
         }
