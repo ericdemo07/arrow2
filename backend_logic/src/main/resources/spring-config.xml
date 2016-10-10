@@ -31,12 +31,14 @@
 
     <bean id="mapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.arrow.mapper.LoginServiceDao"/>
+        <property name="mapperInterface" value="com.arrow.mapper.SearchQueryDao"/>
+        <property name="mapperInterface" value="com.arrow.mapper.ProductDetailDao"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 
-<!--
-    <bean id="controller" class="com.arrow.mapper.impl.SearchQueryDaoImpl"/>
--->
-    <bean id="controller" class="com.arrow.mapper.impl.LoginServiceDaoImpl"/>
+    <bean id="searchquerybean" class="com.arrow.mapper.impl.SearchQueryDaoImpl"/>
+    <bean id="loginbean" class="com.arrow.mapper.impl.LoginServiceDaoImpl"/>
+    <bean id="productdetailbean" class="com.arrow.mapper.impl.ProductDetailDaoImpl"/>
+
 
 </beans>

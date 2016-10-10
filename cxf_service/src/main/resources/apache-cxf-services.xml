@@ -22,6 +22,7 @@
             <ref bean="productservice"/>
             <ref bean="bootstrap"/>
             <ref bean="loginservice"/>
+            <ref bean="productdetail"/>
         </jaxrs:serviceBeans>
 
         <jaxrs:extensionMappings>

@@ -18,5 +18,5 @@ public interface IBootstrap {
     @Path("bootstrap")
     @Consumes({MediaType.APPLICATION_FORM_URLENCODED})
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    public Response appBootstrap();
+    Response appBootstrap();
 }

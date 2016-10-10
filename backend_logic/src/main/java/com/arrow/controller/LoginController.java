@@ -23,11 +23,11 @@ public class LoginController {
     public static String checkUserLogin(LoginRequestModel loginRequestModel) {
         if (!jedis.exists("Session:" + loginRequestModel.getUsername())) {
             cxt = BackendInitiatorSingleton.getInstance();
-            LoginServiceDaoImpl loginServiceDaoImpl = (LoginServiceDaoImpl) cxt.getBean("controller");
+            LoginServiceDaoImpl loginServiceDaoImpl = (LoginServiceDaoImpl) cxt.getBean("loginbean");
             String listOfRolesAsString = ArrowCommonUtils.collectionAsString(loginServiceDaoImpl.checkUserAuthorization(loginRequestModel));
             if (ArrowCommonUtils.nullEmptyCheck(listOfRolesAsString)) {
                 Map<String, String> endUserSessionObject = new HashMap<>();
-                System.out.println("Role : "+listOfRolesAsString);
+                System.out.println("Role : " + listOfRolesAsString);
                 endUserSessionObject.put("role", listOfRolesAsString);
                 DateTime sessionEndTime = new DateTime(DateTimeZone.UTC).plusHours(2);
                 endUserSessionObject.put("logouttime", sessionEndTime.toString());
@@ -40,6 +40,7 @@ public class LoginController {
             return "user is already loggedIn";
         }
     }
+
     public static void main(String... args) {
         System.out.println(LoginController.checkUserLogin(new LoginRequestModel("ericdemo076", "DOOM")));
     }

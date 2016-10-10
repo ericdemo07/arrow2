@@ -10,3 +10,6 @@ CREATE TABLE IF NOT EXISTS roles (username VARCHAR(25), role INT, PRIMARY KEY(us
 
 --roles to path
 CREATE TABLE IF NOT EXISTS roletopath (role INT, path VARCHAR(25), PRIMARY KEY(role,path));
+
+CREATE TABLE IF NOT EXISTS shopperproductdetail (shopperId VARCHAR(25), serial VARCHAR(25), supplier VARCHAR(25), invoiceNo VARCHAR(25), orderId VARCHAR(25), dateOfPurchase TIMESTAMP,
+   supplierAddress VARCHAR(25), eCommerceSupplier VARCHAR(25), PRIMARY KEY(shopperId,serial));

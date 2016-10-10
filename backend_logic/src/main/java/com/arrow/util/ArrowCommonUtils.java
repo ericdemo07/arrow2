@@ -10,6 +10,7 @@ import java.util.List;
  * Created by ayush.shukla on 9/26/2016.
  */
 public class ArrowCommonUtils {
+
     public static boolean nullEmptyCheck(Object value) {
         if (value instanceof String) {
             if (value != null && !((String) value).isEmpty() && !value.equals(DistributionConfig.nullChar)) {
@@ -24,7 +25,6 @@ public class ArrowCommonUtils {
 
             }
         }
-
         return false;
     }
 
@@ -36,7 +36,7 @@ public class ArrowCommonUtils {
                     stringBuilder.append(iter.next());
                     stringBuilder.append(',');
                 }
-                return stringBuilder.toString().substring(0,stringBuilder.length()-1);
+                return stringBuilder.toString().substring(0, stringBuilder.length() - 1);
             }
         }
         return DistributionConfig.nullChar;

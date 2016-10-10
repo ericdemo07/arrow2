@@ -22,10 +22,6 @@ public class BootstrapController {
     static Jedis jedis;
 
     public static void bootstrap() {
-        //ThreadPoolExecutor
-        //Future
-        //ExecutorService
-        //thread-1
         Thread refreshCurrency = new Thread() {
             public void run() {
                 try {
@@ -40,12 +36,11 @@ public class BootstrapController {
         //thread-2
         Thread createCache = new Thread() {
             public void run() {
-                //BackendInitiatorSingleton backendInitiatorSingleton = BackendInitiatorSingleton.getInstance();
                 cxt = BackendInitiatorSingleton.getInstance();
                 jedis = jedisManager.getinstance();
                 System.out.println("Server is running: " + jedis.ping());
                 Map<String, String> searchQueryResponseModelListAsMap = new HashMap<String, String>();
-                SearchQueryDaoImpl searchQueryDao = (SearchQueryDaoImpl) cxt.getBean("controller");
+                SearchQueryDaoImpl searchQueryDao = (SearchQueryDaoImpl) cxt.getBean("searchquerybean");
                 List<ProductResponseModel> searchQueryResponseModelList = searchQueryDao.getAllProduct();
                 for (ProductResponseModel productResponseModel : searchQueryResponseModelList) {
                     searchQueryResponseModelListAsMap.put("id", String.valueOf(productResponseModel.getId()));

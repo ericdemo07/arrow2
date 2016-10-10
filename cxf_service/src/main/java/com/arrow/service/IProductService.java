@@ -16,11 +16,11 @@ public interface IProductService {
     @Path("getallproduct")
     @Consumes({MediaType.APPLICATION_FORM_URLENCODED})
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    public SearchQueryResponseModelList getAllProducts();
+    SearchQueryResponseModelList getAllProducts();
 
     @GET
     @Path("getproduct/{serial}")
     @Consumes({MediaType.APPLICATION_FORM_URLENCODED})
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    public SearchQueryResponseModel getProductBySerialId(@PathParam("serial") String serialId);
+    SearchQueryResponseModel getProductBySerialId(@PathParam("serial") String serialId);
 }
