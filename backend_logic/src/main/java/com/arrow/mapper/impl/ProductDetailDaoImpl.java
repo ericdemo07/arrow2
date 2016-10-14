@@ -9,10 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class ProductDetailDaoImpl implements ProductDetailDao {
     @Autowired
-    ProductDetailDao mapper;
+    ProductDetailDao productDetailMapper;
 
     @Override
     public int addProductDetail(ProductDetailModel productDetailModel) {
-        return mapper.addProductDetail(productDetailModel);
+        return productDetailMapper.addProductDetail(productDetailModel);
     }
 }

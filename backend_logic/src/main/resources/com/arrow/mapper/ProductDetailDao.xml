@@ -4,6 +4,7 @@
 <mapper namespace="com.arrow.mapper.ProductDetailDao">
     <resultMap type="com.arrow.model.ProductDetailModel" id="productDetailModel">
         <result property="shopperId" column="shopperId"/>
+        <result property="serial" column="serial"/>
         <result property="supplier" column="supplier"/>
         <result property="invoiceNumber" column="invoiceNumber"/>
         <result property="orderId" column="orderId"/>
@@ -12,10 +13,10 @@
         <result property="eCommerceSupplier" column="eCommerceSupplier"/>
     </resultMap>
 
-    <insert id="insertAuthor">
+    <insert id="addProductDetail">
         INSERT INTO shopperproductdetail (shopperId,serial,supplier,invoiceNo,orderId,dateOfPurchase,supplierAddress,
         eCommerceSupplier)
         values
-        (#{shopperId},#{serial},#{supplier},#{invoiceNo},#{orderId},#{dateOfPurchase},#{supplierAddress},#{eCommerceSupplier})
+        (#{shopperId},#{serial},#{supplier},#{invoiceNumber},#{orderId},#{dateOfPurchase},#{supplierAddress},#{eCommerceSupplier})
     </insert>
 </mapper>

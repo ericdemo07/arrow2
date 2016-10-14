@@ -12,10 +12,9 @@ import org.springframework.stereotype.Service;
 
 @Service("productdetail")
 public class ProductDetailServiceImpl implements IProductDetailService {
-
     @Override
     public String addProductDetail(ProductDetailServiceModel productDeatilServiceModel) {
         String response = ProductDetailController.addProductDetail(ProductDetailHelper.addProductDetail(productDeatilServiceModel));
-        return null;
+        return "success";
     }
 }

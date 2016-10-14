@@ -42,6 +42,6 @@ public class LoginController {
     }
 
     public static void main(String... args) {
-        System.out.println(LoginController.checkUserLogin(new LoginRequestModel("ericdemo076", "DOOM")));
+        System.out.println(LoginController.checkUserLogin(new LoginRequestModel("ayush.abcds", "DOOM")));
     }
 }

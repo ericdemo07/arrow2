@@ -11,13 +11,13 @@ import java.util.List;
  */
 public class SearchQueryDaoImpl {
     @Autowired
-    private SearchQueryDao mapper;
+    private SearchQueryDao searchQuerymapper;
 
     public List<ProductResponseModel> getAllProduct() {
-        return mapper.getAllProduct();
+        return searchQuerymapper.getAllProduct();
     }
 
     public ProductResponseModel getProductBySerialID(String serialID) {
-        return mapper.getProductBySerialID(serialID);
+        return searchQuerymapper.getProductBySerialID(serialID);
     }
 }

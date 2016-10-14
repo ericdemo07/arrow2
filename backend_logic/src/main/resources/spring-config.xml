@@ -29,9 +29,17 @@
     </bean>
 
 
-    <bean id="mapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <bean id="loginServiceMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.arrow.mapper.LoginServiceDao"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="searchQuerymapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.arrow.mapper.SearchQueryDao"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="productDetailMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.arrow.mapper.ProductDetailDao"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>

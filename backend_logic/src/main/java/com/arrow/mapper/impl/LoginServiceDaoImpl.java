@@ -11,10 +11,10 @@ import java.util.List;
  */
 public class LoginServiceDaoImpl implements LoginServiceDao {
     @Autowired
-    LoginServiceDao mapper;
+    LoginServiceDao loginServiceMapper;
 
     @Override
     public List<String> checkUserAuthorization(LoginRequestModel loginRequestModel) {
-        return mapper.checkUserAuthorization(loginRequestModel);
+        return loginServiceMapper.checkUserAuthorization(loginRequestModel);
     }
 }

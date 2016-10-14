@@ -4,12 +4,22 @@ package com.arrow.model;
  * Created by ayush.shukla on 10/10/2016.
  */
 public class ProductDetailServiceModel {
+    private String shopperId;
+    private String serial;
     private String supplier;
     private String invoiceNumber;
     private String orderId;
     private String dateOfPurchase;
     private String supplierAddress;
     private String eCommerceSupplier;
+
+    public String getShopperId() {
+        return shopperId;
+    }
+
+    public String getSerial() {
+        return serial;
+    }
 
     public String getSupplier() {
         return supplier;
