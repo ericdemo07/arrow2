@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.arrow.mapper.LoginServiceDao">
+    <resultMap type="com.arrow.model.RegisterRequestModel1" id="registerRequestModel1">
+        <result property="username" column="user_name"/>
+        <result property="mailId" column="mail_id"/>
+        <result property="arrowPhone" column="arrow_phone"/>
+        <result property="password" column="password"/>
+        <result property="otp" column="otp"/>
+    </resultMap>
+
+    <resultMap type="com.arrow.model.RegisterRequestModel2" id="registerRequestModel2">
+        <result property="shopperId" column="shopper_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="mailId" column="mail_id"/>
+        <result property="isdCode" column="isd_code"/>
+        <result property="countryCode" column="country_code"/>
+        <result property="countryName" column="country_name"/>
+        <result property="phone" column="phone"/>
+        <result property="gender" column="gender"/>
+        <result property="birthYear" column="birth_year"/>
+        <result property="birthMonth" column="birth_month"/>
+        <result property="birthDate" column="birth_date"/>
+        <result property="flagEnabled" column="flag_enabled"/>
+    </resultMap>
+
+    <insert id="userResisterTemp" parameterType="registerRequestModel1">
+        INSERT INTO enduserdetailstemp (user_name,password,mail_id,arrow_phone,otp)
+        VALUES
+        (#{username},#{mailId},#{arrowPhone},#{password},#{otp})
+    </insert>
+
+    <insert id="userResister" parameterType="registerRequestModel2">
+        INSERT INTO enduserdetails
+        (shopper_id,user_name,mail_id,isd_code,country_code,country_name,phone,gender,birth_year,birth_month,birth_date,flag_enabled)
+        VALUES
+        (#{shopper_id},#{user_name},#{mail_id},#{isd_code},#{country_code},#{country_name},#{phone},#{gender},#{birth_year},#{birth_month},#{birth_date},#{flag_enabled})
+    </insert>
+</mapper>

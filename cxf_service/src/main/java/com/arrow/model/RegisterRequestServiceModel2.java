@@ -10,17 +10,15 @@ public class RegisterRequestServiceModel2 {
     private Boolean otpFlag;
     private String gender;
     private ArrowDate birthDate;
-    private String country;
 
     public RegisterRequestServiceModel2() {
     }
 
-    public RegisterRequestServiceModel2(String shopperId, Boolean otpFlag, String gender, int year, int month, int date, String country) {
+    public RegisterRequestServiceModel2(String shopperId, Boolean otpFlag, String gender, int year, int month, int date) {
         this.shopperId = shopperId;
         this.otpFlag = otpFlag;
         this.gender = gender;
         this.birthDate = new ArrowDate(year, month, date);
-        this.country = country;
     }
 
     public String getShopperId() {
@@ -39,9 +37,6 @@ public class RegisterRequestServiceModel2 {
         return birthDate;
     }
 
-    public String getCountry() {
-        return country;
-    }
 
     @Override
     public String toString() {
@@ -50,7 +45,6 @@ public class RegisterRequestServiceModel2 {
                 ", otpFlag=" + otpFlag +
                 ", gender='" + gender + '\'' +
                 ", birthDate=" + birthDate +
-                ", country='" + country + '\'' +
                 '}';
     }
 }
